@@ -1,0 +1,25 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "MONEY_SCRIPT",
+    "description": "Money script & send Money system V3",
+    "uuid": "dd01f47c-e267-42b2-acc1-e55c67bd9260",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 50]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "4e0afe50-ca58-45c4-8465-532e068ef9fc",
+      "version": [1, 19, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.6.0-beta"
+    }
+  ]
+}

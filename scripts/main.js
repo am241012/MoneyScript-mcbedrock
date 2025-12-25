@@ -215,7 +215,7 @@ system.runInterval(() => {
     firstKillPlayers.set(player.id, true);
     addMoney(player, FIRST_KILL_REWARD);
 
-    player.sendMessage("§6【実績解除】§fモンスターハンター");
+    player.sendMessage("§6【実績】§fモンスターハンター");
     player.sendMessage(`§a報酬: +${FIRST_KILL_REWARD}G`);
   }
 }, 80);
@@ -245,7 +245,7 @@ system.runInterval(() => {
     player.setDynamicProperty(REAL_HUNTER_ACH_ID, true);
     addMoney(player, DEFEATED_REWARD);
 
-    player.sendMessage("§d【実績解除】§f本物のモンスターハンター");
+    player.sendMessage("§d【実績】§f本物のモンスターハンター");
     player.sendMessage(`§a報酬: +${DEFEATED_REWARD}G`);
   }
 }, 100);

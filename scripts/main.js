@@ -194,7 +194,7 @@ const FIRST_KILL_REWARD = 300;
 
 system.runInterval(() => {
   for (const player of world.getAllPlayers()) {
-    if (firstKillPlayers.get(player.id)) continue; // 解除済みスキップ
+    if (firstKillPlayers.get(player.id)) continue;
 
     const inv = player.getComponent("minecraft:inventory")?.container;
     if (!inv) continue;

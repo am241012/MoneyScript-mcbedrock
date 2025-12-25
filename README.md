@@ -3,8 +3,8 @@ Money Script for minecraft bedrock.
 Currently, it only recognizes inventory, and it is not possible to determine the player's biome, determine mob killing, or add chat commands, so it can only be used to make money.
 
 ## How to install
-download and, zip the file and change the extension to "mcpack".
-Open in Minecraft preview version.
+Download and, zip the file and change the extension to "mcpack".
+Open in Minecraft preview version. Turn on the experimental feature beta API when creating a world
 
 ## Function introduction
 You will be awarded 25G for each type of item you collect.
